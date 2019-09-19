@@ -1,0 +1,92 @@
+// for desktop
+@media screen and (min-width: $desktop) {
+    .description {
+        display: inline-block;
+        margin-left: -180px;
+        width: 350px;
+        float: left;
+        padding: 20px;
+        font-size: 20px;
+        font-family: 'Lora', serif;
+        border-left: 2px solid red;
+    }
+}
+// for mobile
+@media screen and (max-width: $desktop) {
+    a.navbar-item.is-logo {
+        height: auto;
+        margin-top:5px;
+    }
+    .hero h2 {
+        margin-bottom: 10px;
+    }
+    article {
+        overflow: hidden;
+        margin-top:10px;
+    }
+    .navbar {
+        min-height: auto;
+    }
+    .description {
+        display: inline-block;
+        margin-left: -180px;
+        width: 350px;
+        float: left;
+        padding: 20px;
+        font-size: 20px;
+        font-family: 'Lora', serif;
+        border-left: 2px solid red;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .info img {
+        max-width: 90px;
+    }
+    body {
+        overflow: hidden;
+    }
+    .description {
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        border-left: 2px solid red;
+        width: 100%;
+        margin-left: 0;
+    }
+    .first-homepage {
+        padding:15px;
+        h2 {
+            width: 100%;
+            position: static;
+            font-size: 28px;
+        }
+        p {
+            margin-top:10px;
+        }
+        .custom-columns {
+            flex-direction: column-reverse;
+            display: flex;
+        }
+        span {
+            display: none;
+        }
+    }
+    .homepage {
+        article {
+            .read-more, span {
+                margin-top:0;
+                padding:10px;
+            }
+        }
+    }
+    .fixed-container {
+        height: 200px;
+    }
+    .fixed-container-small {
+        height: 100px;
+    }
+    amp-img.contain img {
+        object-fit: cover;
+    }
+}
