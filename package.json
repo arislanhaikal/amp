@@ -16,7 +16,7 @@
     "browser-sync-webpack-plugin": "^2.0.1",
     "laravel-mix": "^4.1.4",
     "laravel-mix-purgecss": "^4.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
     "sass": "^1.22.12",
